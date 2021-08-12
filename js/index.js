@@ -24,7 +24,7 @@ var pre = ()=>{
         img[i].style.display="none";
      }
      if(index===0){
-         index=5
+         index=img.length;
      }
      img[index -1].style.display = "block"; 
      index--    
